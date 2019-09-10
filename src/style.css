@@ -1,0 +1,11 @@
+.credit-card {
+  width: 675px;
+  height: 360px;
+  background-color: rgb(64,62,66);
+  border-radius: 45px;
+  padding: 45px;
+}
+
+.chip-card {
+  height: 90px;
+}
