@@ -11,11 +11,11 @@ describe('validation', () => {
     });
 
     it('debería retornar true para "4083952015263"', () => {
-      // escribe aquí tu test
+      assert.equal(validation.valid('4083952015263'), true);
     });
 
     it('debería retornar false para "1234567890"', () => {
-      // escribe aquí tu test
+      assert.equal(validation.valid('1234567890'), false);
     });
     
   });
