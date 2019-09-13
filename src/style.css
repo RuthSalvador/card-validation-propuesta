@@ -1,11 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Major+Mono+Display&display=swap');
+
+body {
+  background-color: rgb(249,248,249);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.font-barlow-sc {
+  font-family: 'Barlow', cursive;
+}
+
+.font-number {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .credit-card {
-  width: 675px;
-  height: 360px;
+  box-sizing: content-box;
+  width: 350px;
+  height: 190px;
   background-color: rgb(64,62,66);
-  border-radius: 45px;
-  padding: 45px;
+  border-radius: 15px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+  box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+  position: relative;
+  z-index: 1;
 }
 
 .chip-card {
-  height: 90px;
+  height: 50px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: rgb(255,255,255);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.size-card-info {
+  font-size: 0.55rem;
+  letter-spacing: 0.2rem;
+  line-height: 1rem;
+}
+
+.size-card-user {
+  font-size: 1rem;
+}
+
+.size-card-number {
+  font-size: 2rem;
+}
+
+.size-icon {
+  font-size: 5rem;
+}
+
+.valid-text {
+  color: rgb(137,197,39);
+}
+
+.invalid-text {
+  color: rgb(219,30,0);
+}
+
+.user-interaction {
+  padding: 190px 30px 30px;
+  background-color: rgb(255,255,255);
+  /* margin: 30px;
+  transform: translateY(-190px); */
+  margin: -150px 30px 30px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+  box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
+}
+
+.form-card {
+  margin-bottom: 30px;
+}
+
+.user-interaction h2 {
+  margin-bottom: 15px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(111,111,111);
+}
+
+.form-card input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(111,111,111);
+  width: 100%;
+  outline: none;
+}
+
+.btn {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  background-color: rgb(111,111,111);
+  color: rgb(255,255,255);
+  border: rgb(111,111,111);
+  outline: none;
+  cursor: pointer;
 }

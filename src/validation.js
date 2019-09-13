@@ -1,7 +1,7 @@
 window.validation = {
   valid: (number) => {
     const arrayReverseOfNumber = number.toString().split('').reverse();
-    let arrayToSum = [];
+    const arrayToSum = [];
     
     arrayReverseOfNumber.forEach((e, i) => {
       if(i % 2 !== 0) {
