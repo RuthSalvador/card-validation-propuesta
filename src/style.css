@@ -30,8 +30,8 @@ body {
   box-sizing: content-box;
   width: 350px;
   height: 190px;
-  background-color: rgb(37,92,190);
-  background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1706/Blue-abstract-background-curve_1920x1080.jpg');
+  background: rgb(37,92,190) url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1706/Blue-abstract-background-curve_1920x1080.jpg');
+  background-size: cover;
   border-radius: 15px;
   padding: 30px;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
