@@ -17,7 +17,7 @@ btnValidate.addEventListener('click', () => {
   result.innerHTML = `
     <div class="text-center p-30">
       <i class="size-icon far ${validation.valid(cardNumberInput) === true ? 'fa-check-circle valid-text' : 'fa-times-circle invalid-text'}"></i>
-      <p class="font-barlow-sc mt-30 ${validation.valid(cardNumberInput) === true ? 'valid-text">Tarjeta válida' : 'invalid-text">Tarjeta inválida'}</p>
+      <p class="font-barlow-sc size-text-val mt-30 ${validation.valid(cardNumberInput) === true ? 'valid-text">Tarjeta válida' : 'invalid-text">Tarjeta inválida'}</p>
     </div>
   `
 });

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Major+Mono+Display&display=swap');
 
 body {
-  background-color: rgb(249,248,249);
+  background-color: rgb(250, 250, 250);
 }
 
 * {
@@ -30,7 +30,8 @@ body {
   box-sizing: content-box;
   width: 350px;
   height: 190px;
-  background-color: rgb(64,62,66);
+  background-color: rgb(37,92,190);
+  background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1706/Blue-abstract-background-curve_1920x1080.jpg');
   border-radius: 15px;
   padding: 30px;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
@@ -40,8 +41,8 @@ body {
   z-index: 1;
 }
 
-.chip-card {
-  height: 50px;
+.logo-visa {
+  height: 20px;
 }
 
 .text-uppercase {
@@ -50,6 +51,14 @@ body {
 
 .text-white {
   color: rgb(255,255,255);
+}
+
+.text-blue {
+  color: rgb(37,92,190);
+}
+
+.text-gray {
+  color: rgb(126, 126, 126);
 }
 
 .text-right {
@@ -98,17 +107,21 @@ body {
   font-size: 5rem;
 }
 
+.size-text-val {
+  font-size: 1.5rem;
+}
+
 .valid-text {
-  color: rgb(137,197,39);
+  color: rgb(17,204,137);
 }
 
 .invalid-text {
-  color: rgb(219,30,0);
+  color: rgb(255,128,135);
 }
 
 .user-interaction {
   padding: 190px 30px 30px;
-  background-color: rgb(255,255,255);
+
   /* margin: 30px;
   transform: translateY(-190px); */
   margin: -150px 30px 30px;
@@ -128,13 +141,14 @@ body {
 .form-card label {
   display: block;
   margin-bottom: 5px;
-  color: rgb(111,111,111);
+  color: rgb(126, 126, 126);
 }
 
 .form-card input {
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid rgb(111,111,111);
+  border: 1px solid rgb(194, 194, 194);
+  color: rgb(126, 126, 126);
   width: 100%;
   outline: none;
 }
@@ -145,9 +159,14 @@ body {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   border-radius: 10px;
-  background-color: rgb(111,111,111);
+  background-color: rgb(37,92,190);
   color: rgb(255,255,255);
-  border: rgb(111,111,111);
+  border: rgb(37,92,190);
   outline: none;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
