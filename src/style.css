@@ -100,7 +100,7 @@ body {
 }
 
 .size-card-number {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .size-icon {
@@ -121,10 +121,10 @@ body {
 
 .user-interaction {
   padding: 190px 30px 30px;
-
+  max-width: 600px;
   /* margin: 30px;
   transform: translateY(-190px); */
-  margin: -150px 30px 30px;
+  margin: -150px auto 30px;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
   -moz-box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
   box-shadow: 0px 5px 30px 0px rgba(111,111,111,0.3);
